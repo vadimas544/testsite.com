@@ -5943,6 +5943,14 @@ function wp_auth_check_load() {
 	}
 }
 
+// function afolio_scripts()
+// {
+// 	wp_enqueue_style('afolio-style', get_stylesheet_uri());
+// 	wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css');
+// }
+
+// add_action('wp_enqueue_style' , 'afolio_scripts');
+
 /**
  * Output the HTML that shows the wp-login dialog when the user is no longer logged in.
  *
